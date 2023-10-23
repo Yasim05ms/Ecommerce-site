@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.lkns{
+    border-radius: 12px; 
+    color: rgb(124, 124, 124) !important;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+.lkns:hover{
+    color: black !important;
+    border-radius: 12px;
+    font-weight: bold;
+}
+
+.twh:hover{
+    background: white !important;
+}
+
+.addan{
+    animation-name: rotatecard;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+}
+
+@keyframes rotatecard{
+
+    from{transform: rotateY(0deg);}
+    to{transform: rotateY(360deg);}
+}
+
+/* .addan{
+    animation-name: ade;
+    animation-duration: 2.5s;
+    animation-iteration-count: 1;
+}
+
+@keyframes ade{
+0%{width: 0%;}
+100%{width: 66.6666%;}
+} */
+
+.anm{
+    animation-name: fadein;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+}
+
+@keyframes fadein{
+    0%{color: rgb(0, 0, 0);}  
+    100%{color: rgb(255, 255, 255);}  
+}
+
+.hun:hover{
+text-decoration: underline;
+}
+.brndname:hover{
+text-decoration: underline;
+}
+
+
+.categor{
+    opacity: 0.8;
+}
+.categor:hover{
+opacity: 1;
+}
+
+.asize{
+    font-size: 13px;
+    margin-top: 3rem;
+}
+
+.removedot{
+    list-style-type: none;
+    list-style-position: inside;
+}
+
+.justit{
+    text-align: justify;
+}
+
+
+.vsh{
+    visibility: hidden;
+}
+
+.cd:hover .vsh{
+visibility: visible;
+}
+
+
+.sc:hover .vt{
+    transition:linear,transform 1s;
+    transform: scale(1.07,1.07);
+}
+
+.categor1:hover{
+    transition: ease-out transform 1s;
+    transform: scale(1.1,1.1);
+}
+
+
+.createsha:hover{
+    box-shadow: 2px 2px 8px rgb(180, 180, 180);
+}

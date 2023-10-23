@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.lkns{
+    border-radius: 12px; 
+    color: rgb(124, 124, 124) !important;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+.lkns:hover{
+    color: black !important;
+    border-radius: 12px;
+    font-weight: bold;
+}
+
+.twh:hover{
+    background: white !important;
+}
+
+.addan{
+    animation-name: rotatecard;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+}
+
+@keyframes rotatecard{
+
+    from{transform: rotateY(0deg);}
+    to{transform: rotateY(360deg);}
+}
+
+/* .addan{
+    animation-name: ade;
+    animation-duration: 2.5s;
+    animation-iteration-count: 1;
+}
+
+@keyframes ade{
+0%{width: 0%;}
+100%{width: 66.6666%;}
+} */
+
+.anm{
+    animation-name: fadein;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+}
+
+@keyframes fadein{
+    0%{color: rgb(0, 0, 0);}  
+    100%{color: rgb(255, 255, 255);}  
+}
+
+.hun:hover{
+text-decoration: underline;
+}
+.brndname:hover{
+text-decoration: underline;
+}
+
+
+.categor{
+    opacity: 0.8;
+}
+.categor:hover{
+opacity: 1;
+}
+
+.asize{
+    font-size: 13px;
+    margin-top: 3rem;
+}
+
+.removedot{
+    list-style-type: none;
+    list-style-position: inside;
+}
+
+.justit{
+    text-align: justify;
+}
+
+.seth{
+    height: 75% !important;
+}
+
+.form-control{
+    border: 1px solid rgb(255, 253, 253);
+}
+.form-control:focus{
+    border-color: #a5a5a5 !important;
+    box-shadow: 4px 4px 2px rgb(195, 195, 195) !important;
+}
+
+.alnverti{
+vertical-align: middle !important;
+}
+
+.hrule{
+    animation-name: grw;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+}
+
+@keyframes grw{
+    from{width: 0%;}
+    to{width: 90%;}
+}
